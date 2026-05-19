@@ -1,0 +1,114 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 40px;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+label {
+    display: block;
+    width: 300px;
+    margin: 0 auto 5px auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+input, button {
+    display: block;
+    width: 300px;
+    margin: 0 auto 10px auto;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #1a1a1a;
+    font-size: 16px;
+    color: #000000;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*imagenes*/
+
+.imgLateral {
+    position: absolute;
+    top: 50%;     
+    bottom: 0;  
+    transform: translateY(-50%);
+    width: 300px; 
+    height: auto;
+    
+    object-fit: cover;
+    box-sizing: border-box; 
+    padding: 0; 
+    background-color: #1a1a1a;
+}
+
+/* Posición específica */
+.imgIzq {
+    left: 40px; 
+}
+
+.imgDer {
+    right: 40px; 
+}
+
+
+
+/*index exterior--------------------------------------*/
+
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.menuBotones {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.botonMenu {
+    display: block;
+    padding: 20px;
+    
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none; 
+    border: 1px solid #1a1a1a;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.botonMenu:hover {
+    background-color: #073d4c;
+
+}
+
+button:hover {
+    background-color: #073d4c; 
+   
+}
+
+.seleccionado {
+    background-color: #073d4c !important;
+    color: white;
+    border: 2px solid #000;
+}

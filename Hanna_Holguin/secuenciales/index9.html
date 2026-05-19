@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizador de Seguros</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <h2>Cotizar poliza</h2>
+    
+    <label for="tipo">Tipo de Póliza (A o B):</label>
+    <input type="text" id="tipo" name="tipo" placeholder="A o B"><br>
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad"><br>
+
+    <label for="alcohol">¿Bebe alcohol? (SI/NO):</label>
+    <input type="text" id="alcohol" name="alcohol" placeholder="SI o NO"><br>
+
+    <label for="lentes">¿Usa lentes? (SI/NO):</label>
+    <input type="text" id="lentes" name="lentes" placeholder="SI o NO"><br>
+
+    <label for="enfermedad">¿Padece enfermedad? (SI/NO):</label>
+    <input type="text" id="enfermedad" name="enfermedad" placeholder="SI o NO""><br>
+
+    <button onclick="calcular()">Calcular Costo</button><br>
+
+    <img src="../images/adulto1.png" class="imgLateral imgIzq" alt="Decoración izquierda">
+    <img src="../images/adulto2.png" class="imgLateral imgDer" alt="Decoración derecha">
+    
+    <p id="result"></p> 
+
+</body>
+    <script src="../scripts/problema9.js" defer></script>
+</html>
